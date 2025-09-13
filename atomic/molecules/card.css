@@ -1,0 +1,58 @@
+
+.livros-destaque {
+  padding: 9rem;
+  background-color: #fdfdfd;
+  text-align: center;
+}
+
+.livros-destaque h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.livros-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  gap: 2rem;               
+}
+
+
+.book-image {
+  width: 150px;        
+  height: 280px;        
+  object-fit: cover;    
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+.book-sinopse {
+  font-size: 0.85rem;
+  color: #444;
+  margin-top: 31px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 29px;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 44%;
+  max-height: 242px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+@media screen and (max-width: 600px) {
+  .livros-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .livros-destaque h2 {
+    font-size: 1.4rem;
+  }
+}

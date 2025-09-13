@@ -1,0 +1,78 @@
+.bloco {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+}
+
+.titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: #f7f7f7;
+  padding: 1rem;
+  margin: -2rem -2rem 2rem;
+  border-radius: 12px 12px 0 0;
+  color: #333;
+  text-align: center;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+form button {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+.resultado,
+.lista {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.resultado {
+  background: #e6f7e6;
+  color: #b32287;
+}
+
+@media (max-width: 600px) {
+  .bloco {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .titulo {
+    font-size: 1.25rem;
+    padding: 0.75rem;
+  }
+
+  form input,
+  form button {
+    font-size: 0.95rem;
+  }
+}

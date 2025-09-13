@@ -1,0 +1,29 @@
+
+
+.book-card {
+  background: #fff;
+  padding: var(--space-medium);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  text-align: center;      
+}
+
+.book-card {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.book-info {
+  flex: 1; 
+}
+
+
+.book-card--featured {
+  border: 2px solid var(--color-highlight);
+}
