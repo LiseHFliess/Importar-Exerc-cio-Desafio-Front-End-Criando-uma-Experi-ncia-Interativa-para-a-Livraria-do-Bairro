@@ -27,3 +27,15 @@
 .book-card--featured {
   border: 2px solid var(--color-highlight);
 }
+
+
+@media (max-width: 767px){
+  .book-card {
+    max-width: 642px;
+    width: 97%;
+    margin: 0 auto;
+    justify-content: center;
+}
+  
+}
+}
