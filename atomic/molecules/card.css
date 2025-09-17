@@ -55,4 +55,12 @@
   .livros-destaque h2 {
     font-size: 1.4rem;
   }
+  
+.livros-destaque {
+  
+  background-color: #fdfdfd;
+  text-align: center;
+  
+}
+
 }
